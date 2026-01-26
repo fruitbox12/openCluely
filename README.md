@@ -48,22 +48,13 @@ openCluely is built entirely in **Swift** using native frameworks for maximum pe
 * **Apple Silicon (M1/M2/M3)** recommended (Intel works but may have higher latency).
 * **OpenAI API Key** with access to the `gpt-4o-realtime-preview` model.
 
-### Quick Start (Bash Script)
-openCluely is designed to be compiled and launched instantly via a single bash script, bypassing the need for an Xcode project file.
-
 1.  **Configure API Key**:
-    Open the source script (`stealth_v23.sh`) and replace the placeholder API key with your own:
+    Replace the placeholder API key with your own:
     ```swift
     private let apiKey = "sk-..."
     ```
 
-2.  **Build & Run**:
-    ```bash
-    chmod +x stealth_v23.sh
-    ./stealth_v23.sh
-    ```
-
-3.  **Permissions**:
+2.  **Permissions**:
     On the first run, macOS will ask for:
     * **Microphone Access**: To hear you.
     * **Screen Recording Access**: To see your screen and capture system audio.
