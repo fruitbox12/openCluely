@@ -1,0 +1,3 @@
+import SwiftUI
+@main struct StealthCopilotApp: App { @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate; var body: some Scene { Settings { EmptyView() } } }
+class AppDelegate: NSObject, NSApplicationDelegate { var secureWindow: SecureWindowController?; func applicationDidFinishLaunching(_ notification: Notification) { secureWindow = SecureWindowController(); if let screen = NSScreen.main, let window = secureWindow?.window { let frame = screen.visibleFrame; window.setFrameOrigin(NSPoint(x: frame.maxX - window.frame.width - 20, y: frame.maxY - window.frame.height - 50)); window.orderFront(nil) } } }
