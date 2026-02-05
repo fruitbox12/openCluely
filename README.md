@@ -7,7 +7,7 @@ openCluely is a native macOS application designed to provide discrete, high-cont
 ---
 
 ## ⚡️ Core Features
-
+ YOU NEED TO RUN THE COMPILE.SH
 ### 🎧 Dual-Channel Audio Intelligence
 openCluely separates the audio world into two distinct channels:
 * **Mic Stream (You):** Captures your voice for queries and commands.
