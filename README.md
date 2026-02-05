@@ -1,4 +1,4 @@
-# openCluely
+# openClew
 
 **The Context-Aware Stealth Copilot for macOS.**
 
