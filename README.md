@@ -4,6 +4,8 @@
 
 openCluely is a native macOS application designed to provide discrete, high-context AI assistance during meetings, interviews, and complex workflows. Unlike standard AI assistants, openCluely "lives" in your environment—it listens to your system audio (Zoom calls, videos), hears your voice, and watches your screen to understand the full context before you even ask a question.
 
+OpenClew Implements Tinfoil.sh for private Zero-Knowledge User bases. Enjoy the intelligence of frontier models and tool calling with privacy preserving inference (Attestable). Zero Rentention.
+
 ---
 
 ## ⚡️ Core Features
